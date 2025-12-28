@@ -1,0 +1,42 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 { text-align: center; }
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button, input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background: #222;
+  padding: 10px;
+}
+
+table td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+img {
+  width: 32px;
+}
